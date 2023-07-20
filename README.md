@@ -1,4 +1,6 @@
-**POKEMON API TEST**
+## Primeira contribuição open source
+
+**POKEMON API**
 
 This `api` is used to tests, we have a little list of pokeons, use is very simple:
 
@@ -50,7 +52,12 @@ List all pokemons - `/pokemons`
 **To contribute:**
 
 1. Make a `fork`
-2. Create your updates
-3. Open `pull request`
-4. Wait approve
-5. Get a green mark (contribution) in your github profile
+2. Create your branch
+3. Create your updates
+4. Open `pull request`
+5. Wait approve
+6. Get a green mark (contribution) in your github profile
+
+**Rules:**
+This project use a conventional commits, see more in this link:
+https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary
