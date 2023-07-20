@@ -1,12 +1,12 @@
 const { Router } = require("express");
-const listPokemon = require("./Pokemons/useCases/listPokemon");
+const listPokemons = require("./Pokemons/useCases/listPokemons");
 const insertPokemon = require("./Pokemons/useCases/insertPokemon");
 const routes = Router();
 
 const databaseRepository = require("./Pokemons/repositories/databaseRepository");
 
 routes.get("/pokemons", async (req, res) => {
-  return res.status(200).json(await listPokemon(databaseRepository));
+  return res.status(200).json(await listPokemons(databaseRepository));
 });
 
 routes.post("/pokemons", async (req, res) => {
