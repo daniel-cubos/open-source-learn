@@ -4,7 +4,7 @@
 
 **POKEMON API**
 
-This `api` is used to tests, we have a little list of pokeons, use is very simple:
+This `api` is used to tests, we have a little list of pokemons, use is very simple:
 
 We have `api` only a `GET`
 
