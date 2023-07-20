@@ -1,9 +1,10 @@
-const pokemons = require('./data/pokemons.json');
-const { Router } = require('express');
+const pokemons = require("./data/pokemons.json");
+const { Router } = require("express");
 
 const routes = Router();
+//ss
 
-routes.get('/pokemon', (req, res) => {
+routes.get("/pokemon", (req, res) => {
   res.send(pokemons);
 });
 
