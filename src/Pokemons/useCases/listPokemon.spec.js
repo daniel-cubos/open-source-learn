@@ -1,4 +1,4 @@
-const listPokemons = require("./listPokemon");
+const listPokemons = require("./listPokemons");
 const inMemoryRepository = require("../repositories/inMemoryRepository");
 const insertPokemon = require("./insertPokemon");
 
