@@ -1,5 +1,5 @@
 async function listPokemons(repository) {
-  return await repository.getAll();
+  await repository.getAll();
 }
 
 module.exports = listPokemons;
