@@ -4,7 +4,7 @@ This `api` is used to tests, we have a little list of pokeons, use is very simpl
 
 We have `api` only a `GET`
 
-List all pokemons - `/pokemon`
+List all pokemons - `/pokemons`
 
 ```json=
 [
